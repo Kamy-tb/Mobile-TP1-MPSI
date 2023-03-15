@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/graph"
+    app:startDestination="@id/viewFragment">
+
+    <fragment
+        android:id="@+id/insertFragment"
+        android:name="com.example.conduitechangement.InsertFragment"
+        android:label="fragment_insert"
+        tools:layout="@layout/fragment_insert" />
+    <fragment
+        android:id="@+id/viewFragment"
+        android:name="com.example.conduitechangement.ViewFragment"
+        android:label="fragment_view"
+        tools:layout="@layout/fragment_view" />
+    <activity
+        android:id="@+id/loginActivity"
+        android:name="com.example.conduitechangement.LoginActivity"
+        android:label="activity_login"
+        tools:layout="@layout/activity_login" />
+</navigation>
